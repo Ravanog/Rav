@@ -36,7 +36,7 @@ async def search(bot, message):
                                           reply_markup=InlineKeyboardMarkup(buttons))
        else:
           msg = await message.reply_text(text=head+results, disable_web_page_preview=True)
-       _time = (int(time()) + (15*60))
+       _time = (int(time()) + (15*10))
        await save_dlt_message(msg, _time)
     except:
        pass
@@ -49,7 +49,7 @@ async def recheck(bot, update):
     try:      
        typed = update.message.reply_to_message.from_user.id
     except:
-       return await update.message.delete(2)       
+       return await update.message.delete(0)       
     if clicked != typed:
        return await update.answer("That's not for you! 👀", show_alert=True)
 
@@ -90,4 +90,4 @@ async def request(bot, update):
     text  = f"#RequestFromYourGroup\n\nName: {name}\nIMDb: {url}"
     await bot.send_message(chat_id=admin, text=text, disable_web_page_preview=True)
     await update.answer("✅ Request Sent To Admin", show_alert=True)
-    await update.message.delete(60)
+    await update.message.delete(10)
