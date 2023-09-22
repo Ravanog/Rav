@@ -17,7 +17,9 @@ async def search(bot, message):
     if message.text.startswith("/"):
        return    
     query   = message.text 
-    head    = "<u>Here is the results 👇\n\n✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✨ </u> <b><I>@movies_villa_backup</I></b>\n\n"
+    l = head    = "<u>Here is the results 👇\n\n✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✨ </u> <b><I>@movies_villa_backup</I></b>\n\n"
+
+    await asyncio.sleep(20)
     results = ""
     try:
        for channel in channels:
