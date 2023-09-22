@@ -19,7 +19,8 @@ async def search(bot, message):
     query   = message.text 
     l = head    = "<u>Here is the results 👇\n\n✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✨ </u> <b><I>@movies_villa_backup</I></b>\n\n"
 
-    await asyncio.sleep(20)
+    await asyncio.sleep(10)
+    await l.delete()
     results = ""
     try:
        for channel in channels:
