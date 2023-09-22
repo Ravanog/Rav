@@ -5,3 +5,4 @@ SESSION      = "BQGKI40ATCrfS73eMegygKL7J8Rn9ZJGoi6tIFq1eG7MbIyWLCfvFz41MLmh7m7D
 DATABASE_URI = "mongodb+srv://Searchbot:Mongodb.bot@cluster0.5xixyjh.mongodb.net/?retryWrites=true&w=majority"
 LOG_CHANNEL  = -1001961336094
 ADMIN        = 6651109872
+AUTO_DELETE_TIME  = "100"
