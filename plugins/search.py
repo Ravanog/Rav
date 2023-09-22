@@ -17,8 +17,8 @@ async def search(bot, message):
     if message.text.startswith("/"):
        return    
     query   = message.text 
-    l = head    = "<u>Here is the results 👇\n\n✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✨ </u> <b><I>@movies_villa_backup</I></b>\n\n"
-    await l.delete(10)
+    head    = "<u>Here is the results 👇\n\n✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✨ </u> <b><I>@movies_villa_backup</I></b>\n\n"
+    await head.message.delete(3)
     results = ""
     try:
        for channel in channels:
@@ -91,4 +91,4 @@ async def request(bot, update):
     text  = f"#RequestFromYourGroup\n\nName: {name}\nIMDb: {url}"
     await bot.send_message(chat_id=admin, text=text, disable_web_page_preview=True)
     await update.answer("✅ Request Sent To Admin", show_alert=True)
-    await update.message.delete(1)
+    await update.message.delete(20)
