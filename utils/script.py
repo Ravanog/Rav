@@ -7,13 +7,14 @@ class script(object):
 <b>ꜱᴇɴᴅ /help ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ</b>"""
 
     HELP = """<b>‼️  ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ  ‼️</b>
+    
+❂ Fɪʀsᴛ Bᴜʏ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ Wɪᴛʜ - /buy ᴀɴᴅ Tʜᴇɴ Iᴛ Wɪʟʟ Cᴏsᴛ 20₹ Pᴇʀ Mᴏɴᴛʜ
 
-
-❂ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ.
+❂ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ ᴡɪᴛʜ ᴀʟʟ ᴘᴇʀᴍɪssɪᴏɴs.
 
 ❂ ᴛʏᴘᴇ /verify ɪɴ ɢʀᴏᴜᴘ.
 
-❂ ᴡᴀɪᴛ ᴜɴᴛɪʟ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ɪꜱ ᴠᴇʀɪꜰɪᴇᴅ ʙʏ <b><a href="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA">ᴏᴡɴᴇʀ</a></b>
+❂ ᴡᴀɪᴛ ᴜɴᴛɪʟ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ɪꜱ ᴠᴇʀɪꜰɪᴇᴅ ʙʏ <b>👉 <a href="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA">ᴏᴡɴᴇʀ</a></b> 👈
 
 ❂ ᴀꜰᴛᴇʀ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴇɴᴅ /connect ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪᴅ
 
@@ -21,13 +22,11 @@ class script(object):
 
 /connect -100xxxxxxxxxx
 
-
 ❂ ꜰᴏʀ ᴀᴅᴅɪɴɢ ꜰᴏʀᴄᴇ ꜱᴜʙ ɪɴ ɢʀᴏᴜᴘ ᴛʏᴘᴇ /fsub ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪᴅ
 
 <b>⤨ ᴇxᴀᴍᴘʟᴇ -</b>
 
 /fub -100xxxxxxxxxx
-
 
 ❂ ꜰᴏʀ ʀᴇᴍᴏᴠɪɴɢ ꜰᴏʀᴄᴇ ꜱᴜʙ ɪɴ ɢʀᴏᴜᴘ ᴛʏᴘᴇ /nofsub ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪᴅ
 
@@ -42,7 +41,7 @@ class script(object):
 
 ❂ ɢᴇᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟꜱ ʟɪꜱᴛ ᴡɪᴛʜ
 /connections
-✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✨ @movies_villa_backup"""
+✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✨ 👉 <a href="https://telegram.me/MOVIES_VILLA_UPDATE">𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙢𝙤𝙫𝙞𝙚𝙨 𝙫𝙞𝙡𝙡𝙖</a></b> 👈 ."""
 
     ABOUT = """<b>➣ ᴍʏ ɴᴀᴍᴇ ⋟  {}</b>
 <b>➢ ᴄʀᴇᴀᴛᴏʀ ⋟  <a href=https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA></a>ᴍᴏᴠɪᴇs ᴠɪʟʟᴀ</b>
