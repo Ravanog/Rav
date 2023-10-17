@@ -6,7 +6,7 @@ DATABASE_URI = "mongodb+srv://Mdisk-Search-Bot:mdisksearchbot@cluster0.bbnr7ke.m
 LOG_CHANNEL  = -1001961336094
 ADMIN        = 6651109872
 CHANNEL      = "-1001929711696"
-APPROVETEXT  = "Hᴇʟʟᴏ {mention}\nWᴇʟᴄᴏᴍᴇ Tᴏ {title}\n\nYᴏᴜʀ ʀᴇǫᴜᴇsᴛ ʜᴀs ʙᴇᴇɴ ᴀᴘᴘʀᴏᴠᴇᴅ👉 <a href="https://t.me/MOVIES_VILLA_UPDATE"></a>𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙢𝙤𝙫𝙞𝙚𝙨 𝙫𝙞𝙡𝙡𝙖</b> 👈"
+APPROVETEXT  = "Hᴇʟʟᴏ {mention}\nWᴇʟᴄᴏᴍᴇ Tᴏ {title}\n\nYᴏᴜʀ ʀᴇǫᴜᴇsᴛ ʜᴀs ʙᴇᴇɴ ᴀᴘᴘʀᴏᴠᴇᴅ 👉<a href="https://t.me/MOVIES_VILLA_UPDATE"></a>𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙢𝙤𝙫𝙞𝙚𝙨 𝙫𝙞𝙡𝙡𝙖</b>👈"
 APPROVE     = "on"
 OWNER_USERNAME = "ROYAL_GAGAN_DEEP_SINGH_MEHRA"
 UPI_PIC = "https://telegra.ph/file/e28b3c353c24706fb67d8.jpg"
