@@ -87,7 +87,7 @@ async def request(bot, update):
     id    = update.data.split("_")[1]
     name  = await search_imdb(id)
     url   = "https://www.imdb.com/title/tt"+id
-    text  = f"#Rᴇǫᴜᴇsᴛ\n\nNᴀᴍᴇ: `{name}`\nIMDʙ: {url}\n\nGʀᴏᴜᴘ ID: {update.message.chat.id}\Gʀᴏᴜᴘ Nᴀᴍᴇ: {update.message.chat.title}"
+    text  = f"#Rᴇǫᴜᴇsᴛ\n\nNᴀᴍᴇ: `{name}`\nIMDʙ: {url}\n\nGʀᴏᴜᴘ ID: {update.message.chat.id}\nGʀᴏᴜᴘ Nᴀᴍᴇ: {update.message.chat.title}"
     await bot.send_message(chat_id=admin, text=text, disable_web_page_preview=True)
     await update.answer("✅ Rᴇǫᴜᴇsᴛ Sᴇɴᴛ Tᴏ Aᴅᴍɪɴ", show_alert=True)
     await update.message.delete(60)
