@@ -24,10 +24,12 @@ async def add_group(group_id, group_name, user_name, user_id, channels, f_sub, v
     except DuplicateKeyError:
        pass
 
-async def get_group(id):
-    data = {'_id':id}
-    group = await grp_col.find_one(data)
-    return dict(group)
+async def get_group(group_id):
+    group = fetch_group_from_database(group_id)  # Assuming this function fetches the group data
+    if group is not None:  # Check if group exists
+        return group  # Return the group data
+    else:
+        return {}  
 
 async def update_group(id, new_data):
     data = {"_id":id}
