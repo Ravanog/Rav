@@ -5,7 +5,7 @@ SESSION      = "BQDvISsAISgASm2Vu8kZGdTQDxW-jRTCkjEtO1w34-kntp_Muo5YbbHSygqk9fPJ
 DATABASE_URI = "mongodb+srv://Ps:ps@cluster0.ptgbmd7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 LOG_CHANNEL  = -1002039419270
 ADMIN        = 5911514776
-CHANNEL      = "TG_UPDATES1"
+CHANNEL      = "-1002039419270"
 APPROVETEXT  = "Hᴇʟʟᴏ {mention}\nWᴇʟᴄᴏᴍᴇ Tᴏ {title}\n\nYᴏᴜʀ ʀᴇǫᴜᴇsᴛ ʜᴀs ʙᴇᴇɴ ᴀᴘᴘʀᴏᴠᴇᴅ"
 APPROVE     = "on"
 OWNER_USERNAME = "KUSHALHK"
