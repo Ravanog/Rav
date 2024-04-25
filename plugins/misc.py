@@ -91,14 +91,14 @@ async def process_buy(bot, update):
         await bot.send_message(chat_id=update.message.chat.id, text=text, reply_markup=keyboard)
     elif data == "upi":
         # send message and button
-        text = "'sᴏʀʀʏ\nPᴀʏ' 20 Rᴜᴘᴘᴇ Oɴ `sm7355423@okhdfcbank` ᴀɴᴅ ᴛʜᴇɴ sᴇɴᴅ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ᴛʜᴇ ᴘᴀʏᴍᴇɴᴛ ʙᴇʟᴏᴡ, ᴀɴᴅ ᴀʟsᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ID Aғᴛᴇʀ Sᴇɴᴅɪɴɢ Vᴇʀɪғɪᴄᴀᴛɪᴏɴ Rᴇǫᴜᴇsᴛ. ᴄᴀɴ ᴠᴇʀɪғʏ ᴛʜᴇ ᴘᴀʏᴍᴇɴᴛ."
+        text = "'sᴏʀʀʏ\nPᴀʏ' 20 Rᴜᴘᴘᴇ Oɴ `harikushal234@okicici` ᴀɴᴅ ᴛʜᴇɴ sᴇɴᴅ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ᴛʜᴇ ᴘᴀʏᴍᴇɴᴛ ʙᴇʟᴏᴡ, ᴀɴᴅ ᴀʟsᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ID Aғᴛᴇʀ Sᴇɴᴅɪɴɢ Vᴇʀɪғɪᴄᴀᴛɪᴏɴ Rᴇǫᴜᴇsᴛ. ᴄᴀɴ ᴠᴇʀɪғʏ ᴛʜᴇ ᴘᴀʏᴍᴇɴᴛ."
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ", url=f'https://t.me/{OWNER_USERNAME}')]
         ])
         await bot.send_message(chat_id=update.message.chat.id, text=text, reply_markup=keyboard)
     elif data == "mdisk":
         # send message and button
-        text = "Sᴇɴᴅ 2000 Mᴅɪsᴋ Vɪᴇᴡs Tᴏ 6651109872 ᴀɴᴅ ᴛʜᴇɴ sᴇɴᴅ ᴀ Mᴇssᴀɢᴇ Tᴏ Tʜᴇ Bᴏᴛ Oᴡɴᴇʀ."
+        text = "Sᴇɴᴅ 2000 Vɪᴇᴡs Tᴏ ᴀɴᴅ ᴛʜᴇɴ sᴇɴᴅ ᴀ Mᴇssᴀɢᴇ Tᴏ Tʜᴇ Bᴏᴛ Oᴡɴᴇʀ."
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("Message", url=f'https://t.me/{OWNER_USERNAME}')]
         ])
@@ -166,10 +166,10 @@ async def start(bot, message):
     await add_user(message.from_user.id, message.from_user.first_name)
     await message.reply(text=script.START.format(message.from_user.mention),
                         disable_web_page_preview=True,
-                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'http://telegram.me/Movies_villa_post_search_bot?startgroup=true')
-            ],[InlineKeyboardButton("ʜᴇʟᴘ", url="https://t.me/movies_villa_backup"),
+                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'http://telegram.me/Post_Search_HK_bot?startgroup=true')
+            ],[InlineKeyboardButton("ʜᴇʟᴘ", url="https://t.me/TG_UPDATES1"),
 
-InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboardButton('❂   ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇꜱ  ᴄʜᴀɴɴᴇʟ   ❂', url=f'https://t.me/movies_villa_backup')]]))  
+InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboardButton('❂   ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇꜱ  ᴄʜᴀɴɴᴇʟ   ❂', url=f'https://t.me/+mQ6JOFRldHs5Y2M1')]]))  
 @Client.on_message(filters.command("help"))
 async def help(bot, message):
     await message.reply(text=script.HELP,
@@ -206,14 +206,14 @@ async def misc(bot, update):
     if data=="home":
        await update.message.edit(text=script.START.format(update.from_user.mention),
                                  disable_web_page_preview=True,
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'http://telegram.me/Movies_villa_post_search_bot?startgroup=true')
-            ],[InlineKeyboardButton("ʜᴇʟᴘ", url="https://t.me/Movies_villae"),
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'http://telegram.me/Post_Search_HK_bot?startgroup=true')
+            ],[InlineKeyboardButton("ʜᴇʟᴘ", url="https://t.me/+mQ6JOFRldHs5Y2M1"),
 
-InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboardButton('❂   ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇꜱ  ᴄʜᴀɴɴᴇʟ   ❂', url=f'https://t.me/Hindi_movies_villa')]])) 
+InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboardButton('❂   ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇꜱ  ᴄʜᴀɴɴᴇʟ   ❂', url=f'https://t.me/+mQ6JOFRldHs5Y2M1')]])) 
     elif data=="help":
        await update.message.edit(text=script.HELP, 
                                  disable_web_page_preview=True,
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🧑‍💻   ᴄᴏɴᴛᴀᴄᴛ  ᴛᴏ  ᴏᴡɴᴇʀ   🧑‍💻',url='https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA')],[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="misc_home"),InlineKeyboardButton("ɴᴇxᴛ", url="https://t.me/Punjabi_movies_villa")]])) 
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🧑‍💻   ᴄᴏɴᴛᴀᴄᴛ  ᴛᴏ  ᴏᴡɴᴇʀ   🧑‍💻',url='https://t.me/KUSHALHK')],[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="misc_home"),InlineKeyboardButton("ɴᴇxᴛ", url="https://t.me/+mQ6JOFRldHs5Y2M1")]])) 
 
 
     elif data=="about":
@@ -224,17 +224,17 @@ InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboa
 @Client.on_message(filters.command("follow"))
 async def follow_msg(bot, message):
     btn = [[
-        InlineKeyboardButton(text="ᴛᴡɪᴛᴛᴇʀ", url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA"),
-        InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA")
+        InlineKeyboardButton(text="ᴛᴡɪᴛᴛᴇʀ", url="https://t.me/+mQ6JOFRldHs5Y2M1"),
+        InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="https://t.me/+mQ6JOFRldHs5Y2M1")
         ],[
-        InlineKeyboardButton(text="ɢɪᴛʜᴜʙ  ᴀᴄᴄᴏᴜɴᴛ", url="https://github.com/ROYAL-JATT")
+        InlineKeyboardButton(text="ɢɪᴛʜᴜʙ  ᴀᴄᴄᴏᴜɴᴛ", url="https://github.com/KUSHALHK")
     ],[
-        InlineKeyboardButton(text="ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴡᴇʙꜱɪᴛᴇ", url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA")
+        InlineKeyboardButton(text="ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴡᴇʙꜱɪᴛᴇ", url="https://t.me/+mQ6JOFRldHs5Y2M1")
     ],[
-        InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴏᴜʀ  ʏᴛ  ᴄʜᴀɴɴᴇʟ", url="https://youtube.com/@Official_punjabi_movies_hd?si=fMczyyv52dTXWwJ2")
+        InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴏᴜʀ  ʏᴛ  ᴄʜᴀɴɴᴇʟ", url="https://youtube.com")
     ],[
-        InlineKeyboardButton(text="ʀᴇᴠɩᴇᴡꜱ", url="https://t.me/Punjabi_movies_villa"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/movies_villa_backup")
+        InlineKeyboardButton(text="ʀᴇᴠɩᴇᴡꜱ", url="https://t.me/+mQ6JOFRldHs5Y2M1"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/TG_UPDATES1")
     ]]
     yt = await message.reply_photo(photo='https://telegra.ph/file/b681d379605d3d3a9fa1c.jpg', caption="<b>ᴏᴜʀ  ꜱᴏᴄɪᴀʟ  ᴍᴇᴅɪᴀ  ᴘʟᴀᴛꜰᴏʀᴍꜱ</b>", reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(500)
@@ -249,7 +249,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     await message.reply_text(
          text="<b>ʜʏ,\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴏᴠɪᴇs / sᴇʀɪᴇs ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ꜰɪʀsᴛ ʙᴜᴛᴛᴏɴ ᴏʀ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ɪɴ ʙᴏᴛ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ sᴇᴄᴏɴᴅ ʙᴜᴛᴛᴏɴ</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝  ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/Movies_villae")],[InlineKeyboardButton("🧑‍💻  ʙᴏᴛ ᴏᴡɴᴇʀ ", url=f"https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA")]]), disable_web_page_preview=True
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝  ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+Ul_owPNY0xQzOTRl")],[InlineKeyboardButton("🧑‍💻  ʙᴏᴛ ᴏᴡɴᴇʀ ", url=f"https://t.me/KUSHALHK")]]), disable_web_page_preview=True
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
