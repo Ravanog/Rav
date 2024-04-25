@@ -1,5 +1,5 @@
 class script(object):
-    START = """**{},**
+    START = """**ʜᴇʟʟᴏ {},**
 
 ɪ  ᴄᴀɴ  ᴘʀᴏᴠɪᴅᴇ  ᴍᴏᴠɪᴇs  ᴀɴᴅ  sᴇʀɪᴇs,
 ᴊᴜsᴛ  ᴀᴅᴅ  ᴍᴇ  ᴛᴏ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ  ᴀɴᴅ  ᴇɴᴊᴏʏ 👑♥️
@@ -14,7 +14,7 @@ class script(object):
 
 ❂ ᴛʏᴘᴇ /verify ɪɴ ɢʀᴏᴜᴘ.
 
-❂ ᴡᴀɪᴛ ᴜɴᴛɪʟ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ɪꜱ ᴠᴇʀɪꜰɪᴇᴅ ʙʏ <b>👉 <a href="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA">ᴏᴡɴᴇʀ</a></b> 👈
+❂ ᴡᴀɪᴛ ᴜɴᴛɪʟ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ɪꜱ ᴠᴇʀɪꜰɪᴇᴅ ʙʏ <b>👉 <a href="https://t.me/KUSHALHK">ᴏᴡɴᴇʀ</a></b> 👈
 
 ❂ ᴀꜰᴛᴇʀ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴇɴᴅ /connect ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪᴅ
 
@@ -41,10 +41,10 @@ class script(object):
 
 ❂ ɢᴇᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟꜱ ʟɪꜱᴛ ᴡɪᴛʜ
 /connections
-✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✨ 👉 <a href="https://telegram.me/MOVIES_VILLA_UPDATE">𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙢𝙤𝙫𝙞𝙚𝙨 𝙫𝙞𝙡𝙡𝙖</a></b> 👈 ."""
+✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✨ 👉 <a href="https://telegram.me/TG_UPDATES1">𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙢𝙤𝙫𝙞𝙚𝙨 𝙫𝙞𝙡𝙡𝙖</a></b> 👈 ."""
 
     ABOUT = """<b>➣ ᴍʏ ɴᴀᴍᴇ ⋟  {}</b>
-<b>➢ ᴄʀᴇᴀᴛᴏʀ ⋟  <a href=https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA></a>ᴍᴏᴠɪᴇs ᴠɪʟʟᴀ</b>
+<b>➢ ᴄʀᴇᴀᴛᴏʀ ⋟  <a href=https://t.me/TG_UPDATES1></a>HK PRODUCTIONS</b>
 <b>➢ ʟᴀɴɢᴜᴀɢᴇ ⋟  <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a></b>
 <b>➣ ᴅᴀᴛᴀʙᴀsᴇ ⋟  <a href=https://www.mongodb.com>ᴍᴏɴɢᴏ ᴅʙ</a></b>
 <b>➢ ʙᴏᴛ sᴇʀᴠᴇʀ ⋟  <a href=https://heroku.com>ʜᴇʀᴏᴋᴜ</a></b>
