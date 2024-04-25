@@ -17,7 +17,7 @@ async def search(bot, message):
     if message.text.startswith("/"):
        return    
     query   = message.text 
-    head    = "<u>Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛs 👇   👉<a href='https://telegram.me/MOVIES_VILLA_UPDATE'>𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙢𝙤𝙫𝙞𝙚𝙨 𝙫𝙞𝙡𝙡𝙖</a></u>\n\n"
+    head    = "<u>Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛs 👇   👉<a href='https://telegram.me/TG_UPDATES1'>ʜᴋ ᴘʀᴏᴅᴜᴄᴛɪᴏɴꜱ</a></u>\n\n"
     results = ""
     try:
        for channel in channels:
@@ -31,7 +31,7 @@ async def search(bot, message):
           buttons = []
           for movie in movies: 
               buttons.append([InlineKeyboardButton(movie['title'], callback_data=f"recheck_{movie['id']}")])
-          msg = await message.reply_photo(photo="https://telegra.ph/file/b50ad7750739cd0b77a92.jpg",
+          msg = await message.reply_photo(photo="https://graph.org/file/1a6e5f77fb8f7675a4af6.jpg",
                                           caption="<b><I>I Cᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ Yᴏᴜʀ Qᴜᴇʀʏ😕.\nDɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏғ ᴛʜᴇsᴇ?</I></b>", 
                                           reply_markup=InlineKeyboardMarkup(buttons))
        else:
@@ -53,7 +53,7 @@ async def recheck(bot, update):
     if clicked != typed:
        return await update.answer("Tʜᴀᴛ's ɴᴏᴛ ғᴏʀ ʏᴏᴜ! 👀", show_alert=True)
 
-    m=await update.message.edit("Searching..💥")
+    m=await update.message.edit("ꜱᴇᴀʀᴄʜɪɴɢ.....🔎")
     id      = update.data.split("_")[-1]
     query   = await search_imdb(id)
     channels = (await get_group(update.message.chat.id))["channels"]
